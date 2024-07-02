@@ -19,8 +19,9 @@ h1, p {
 }
 .container1 {
     display: flex;
-    flex-direction:coulumn;
+    flex-direction:column;
     padding: 20px;
+    text-align: center;
     border-radius: 10px;
     justify-content: space-between;
     gap:10px;
@@ -69,10 +70,21 @@ h1, p {
     gap:10px;
     background-color: rgb(55, 54, 54)
 }
+.heading {
+    text-align: center;
+}
+.lists {
+    text-align: start;
+}
 
 @media (min-width: 768px) {
     .container1 {
         display: flex;
         flex-direction: row;
+        text-align: start;
     }
+    .heading {
+        text-align: start;
+    }
+
 }
